@@ -1,12 +1,9 @@
-def calculate():
-    """
-    calculates the total
-    :return: None
-    """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+def reverse_merge(*args):
+    """Merges multiple lists and returns the merged list in reversed order."""
+    # TODO: Implementiere die Funktion
+    ...
 
 
 if __name__ == '__main__':
-    calculate()
+    # Teste deine Funktion
+    print(reverse_merge([1, 2], [3, 4], [5, 6]))  # Erwarteter Output: [6, 5, 4, 3, 2, 1]

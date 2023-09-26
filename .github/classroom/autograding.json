@@ -1,24 +1,44 @@
 {
   "tests": [
     {
-      "name": "Input/Output",
-      "setup": "",
-      "run": "python3 main.py",
-      "input": "",
-      "output": "Total: 78.75\n",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 1
-    },
-    {
-      "name": "Pytest",
+      "name": "test_reverse_merge_no_args",
       "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test\"",
+      "run": "pytest -v  -k \"test_reverse_merge_no_args\"",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 2
+      "points": 1
+    },
+    {
+      "name": "test_reverse_merge_single_list",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_reverse_merge_single_list\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_reverse_merge_multiple_lists",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_reverse_merge_multiple_lists\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_reverse_merge_with_empty_lists",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_reverse_merge_with_empty_lists\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
