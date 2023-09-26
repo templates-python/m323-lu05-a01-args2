@@ -1,5 +1,13 @@
 def reverse_merge(*args):
-    """Merges multiple lists and returns the merged list in reversed order."""
+    """
+    Merges multiple lists and returns the merged list in reversed order.
+
+    Parameters:
+        *args (list): Variable number of lists to be merged.
+
+    Returns:
+        list: The merged list in reversed order.
+    """
     # TODO: Implementiere die Funktion
     ...
 
