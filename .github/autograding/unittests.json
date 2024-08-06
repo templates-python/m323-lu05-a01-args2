@@ -1,0 +1,26 @@
+[
+  {
+    "name": "test_reverse_merge_no_args",
+    "function": "test_reverse_merge_no_args",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_reverse_merge_single_list",
+    "function": "test_reverse_merge_single_list",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_reverse_merge_multiple_lists",
+    "function": "test_reverse_merge_multiple_lists",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_reverse_merge_with_empty_lists",
+    "function": "test_reverse_merge_with_empty_lists",
+    "timeout": 10,
+    "points": 1
+  }
+]
