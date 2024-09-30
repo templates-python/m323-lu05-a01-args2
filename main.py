@@ -16,4 +16,6 @@ def reverse_merge(*args):
 
 if __name__ == '__main__':
     # Teste deine Funktion
-    print(reverse_merge([1, 2], [3, 4], [5, 6]))  # Erwarteter Output: [6, 5, 4, 3, 2, 1]
+    print(
+        reverse_merge([1, 2], [3, 4], [5, 6])
+    )  # Erwarteter Output: [6, 5, 4, 3, 2, 1]
